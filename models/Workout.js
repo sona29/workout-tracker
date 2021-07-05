@@ -3,13 +3,15 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const WorkoutSchema = new Schema({
-  date: {
+  day: {
     type: Date,
     default: Date.now,
   },
   exercises: [
     {
-      type: String,
+      type: {
+        type: String,
+      },
       name: String,
       duration: Number,
       weight: Number,
@@ -21,5 +23,10 @@ const WorkoutSchema = new Schema({
 });
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
+// Workout.aggregate([
+//   {
+//     $addFields: { duration: { $sum: "$exercises.duration" } },
+//   },
+// ]);
 
 module.exports = Workout;
