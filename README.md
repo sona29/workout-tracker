@@ -7,7 +7,6 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Test](#test)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -27,7 +26,7 @@ The user can do the following:
 
 ## Mock up
 
-- The following image shows the web application's appearance in different devices
+- The following image shows the tracker's functionality
 
 ## Home Page
 
@@ -39,15 +38,16 @@ The user can do the following:
 
 ## Installation
 
-npm install
+- Clone repository.
+- `npm install`
+- `node server.js`
+- `npm run seed` - to get seed datas.
 
 ## Usage
 
 For instruction on how to use this project, please refer to walk-through video.
 
-## Test
 
-npm test
 
 ## Contribution
 
