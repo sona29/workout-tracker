@@ -45,9 +45,7 @@ The user can do the following:
 
 ## Usage
 
-For instruction on how to use this project, please refer to walk-through video.
-
-
+A demo of the application is available [here]
 
 ## Contribution
 
