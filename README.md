@@ -45,7 +45,7 @@ The user can do the following:
 
 ## Usage
 
-A demo of the application is available [here]
+A demo of the application is available [here](https://powerful-escarpment-03587.herokuapp.com/)
 
 ## Contribution
 
@@ -62,7 +62,3 @@ Email: sona.shrestha004@gmail.com
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Walk-through Video
-
-##### Video: [TeamProfile Generator Walk-through](https://drive.google.com/file/d/1xpg35eNshSvpFfMv1DTstRLhJj6fJBHl/view)
