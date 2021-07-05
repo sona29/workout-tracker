@@ -13,7 +13,17 @@
 
 ## Description
 
-This project generates team profile using node.js and inquirer. It takes information about employee's basic information and then generate HTML responsive webpage that displays the information of each employee. When the application is started it asks which type of employee you want to add. There are three types of option available. They are Manager, Engineer and Intern. Once option is chosen, then related questions are asked. This application uses Jest for running unit tests and Inquirer for collecting input from the user.
+The workout tracker creates and track daily workouts. It enables to log multiple exercises in a workout on a given day. It tracks the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it tracks distance traveled.
+
+The user can do the following:
+
+- Add exercises to the most recent workout plan.
+
+- Add new exercises to a new workout plan.
+
+- View the combined weight of multiple exercises from the past seven workouts on the stats page.
+
+- View the total duration of each workout from the past seven workouts on the stats page.
 
 ## Mock up
 
